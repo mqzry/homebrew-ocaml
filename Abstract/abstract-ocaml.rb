@@ -5,7 +5,7 @@ class AbstractOCaml < Formula
   def self.init
     desc "General purpose programming language in the ML family"
     homepage "https://ocaml.org/"
-    head "https://caml.inria.fr/svn/ocaml/trunk", :using => :svn
+    head "https://github.com/ocaml/ocaml.git"
 
     pour_bottle? do
       # The ocaml compilers embed prefix information in weird ways that the default
